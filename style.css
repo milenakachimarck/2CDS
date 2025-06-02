@@ -121,6 +121,11 @@ padding: 24px 0;
 .logo_rodape{
     height: 80px;
     padding: 12px 0;
+    background-color: #3300ff;
+    color: white;
+    width:100%;
+    padding: 20 px;
+
 }
 .link{
     color: #ffffff;
