@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -68,15 +69,13 @@
     .estudantes_todos{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     }
     .escola{
     background-image: linear-gradient(#40A2E3,#7FC2EF);
     color: white;
     display: flex;
-    justify-content:center;
     padding: 24px 0;
-    text-align:center;
-    display:block;
     }
     .escola-titulo{
     padding: 50px;
