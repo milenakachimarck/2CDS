@@ -26,9 +26,8 @@
   .cabecalho-imagem {
     width: 6%;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    justify-content: flex-start;
+    align-items: center;
   }
   
   .titulo_site {
@@ -48,8 +47,6 @@
   .banner1 {
     display: flex;
     justify-content: center;
-     transform: translateY(-10px); /* Eleva a imagem */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
   
   .estudante_titulo {
