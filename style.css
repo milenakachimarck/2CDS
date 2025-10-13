@@ -59,7 +59,9 @@
   }
   
   .estudante-imagem {
-    width: 120px;
+     width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center center;
   }
   
   .estudante-icone {
@@ -76,13 +78,19 @@
   .estudante-div {
     text-align: center;
     padding: 24px 0;
+    display: inline-block;
+    perspective: 1000px; 
+      transform: translateY(-10px); /* Eleva a imagem */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
   }
   
   .estudantes_todos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
+    
+}
+  
   
   .escola {
     background-image: linear-gradient(#2744e4, #1829c2);
