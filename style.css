@@ -59,7 +59,7 @@
   }
   
   .estudante-imagem {
-     width: 300px;
+     width: 120px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform-origin: center center;
   }
