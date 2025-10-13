@@ -1,11 +1,13 @@
-const imagem = document.querySelector('.imagem');
+const imagem = document.querySelectorAll('.estudante-imagem'); // Use querySelectorAll para pegar todas as imagens
 
-imagem.addEventListener('mouseenter', () => {
-    imagem.style.transform = 'translateY(-10px)';
-    imagem.style.boxShadow = '0 10px 20px rgba(0, 0, 0, 0.2)';
-});
+imagem.forEach(img => {
+  img.addEventListener('mouseenter', () => {
+      img.style.transform = 'translateY(-10px)';
+      img.style.boxShadow = '0 10px 20px rgba(0, 0, 0, 0.2)';
+  });
 
-imagem.addEventListener('mouseleave', () => {
-    imagem.style.transform = 'translateY(0)';
-    imagem.style.boxShadow = 'none';
+  img.addEventListener('mouseleave', () => {
+      img.style.transform = 'translateY(0)';
+      img.style.boxShadow = 'none';
+  });
 });

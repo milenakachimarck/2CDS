@@ -60,8 +60,7 @@
   
   .estudante-imagem {
      width: 120px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    transform-origin: center center;
+   
   }
   
   .estudante-icone {
@@ -76,13 +75,19 @@
   }
   
   .estudante-div {
-    text-align: center;
-    padding: 24px 0;
-    display: inline-block;
-    perspective: 1000px; 
-      transform: translateY(-10px); /* Eleva a imagem */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
-  }
+text-align: center;
+  padding: 24px 0;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;  
+}
+
+   .estudante-imagem:hover {
+   transform: translateY(-10px); /* Eleva a imagem */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  
+}
   
   .estudantes_todos {
     display: flex;
@@ -105,8 +110,8 @@
   }
   
   .logo_rodape {
-    height: 80px;
-    padding: 12px 0;
+    max-height: 80px;
+  width: auto;
   }
   
   .link {
