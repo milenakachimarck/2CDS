@@ -88,12 +88,7 @@ text-align: center;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   
 }
-  .estudante-div a, 
-.estudante-div .estudante-icone {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 5px;
-}
+ 
   .estudantes_todos {
     display: flex;
     justify-content: space-around;
@@ -126,4 +121,28 @@ text-align: center;
   
 img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.estudante-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.estudante-div a,
+.estudante-div .estudante-icone {
+  display: inline-block;    
+  vertical-align: middle;   
+  margin: 0 5px;             
+}
+
+
+.estudante-icone {
+  width: 38px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.estudante-icone:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
