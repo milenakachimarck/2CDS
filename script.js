@@ -1,4 +1,4 @@
-const imagem = document.querySelectorAll('.estudante-imagem'); // Use querySelectorAll para pegar todas as imagens
+const imagem = document.querySelectorAll('img');
 
 imagem.forEach(img => {
   img.addEventListener('mouseenter', () => {
