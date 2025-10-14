@@ -168,5 +168,22 @@ img {
 }
 
 .dark header {
-  background-color: #2a6acf;
+  background-color: #0e459c;
+}.dark {
+  background-color: #121212;  /* Fundo escuro */
+  color: #ffffff;             /* Texto branco */
+}
+
+.dark header {
+  background-color: #0d1b3d;  /* Azul bem escuro */
+  color: #ffffff;
+}
+
+.dark .estudante {
+  background-color: #1e1e1e;
+}
+
+.dark .escola {
+  background-image: linear-gradient(#0f0f0f, #1a1a1a);
+  color: #ffffff;
 }
