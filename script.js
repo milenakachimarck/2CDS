@@ -13,3 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+window.onload = function() {
+  alert("Bem-vindo(a) ao site da Nossa Escola!");
+};
+const botaoTema = document.getElementById("tema");
+
+botaoTema.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
