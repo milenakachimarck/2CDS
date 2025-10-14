@@ -149,7 +149,7 @@ img {
 .icones-sociais {
   display: flex;
   justify-content: center;
-  gap: 5px; 
+  gap: 2,5px; 
   margin-top: 8px;
 }
 
