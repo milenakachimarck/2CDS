@@ -83,12 +83,13 @@ text-align: center;
   justify-content: center;  
 }
 
-   .estudante-imagem:hover {
+.estudante-imagem:hover {
    transform: translateY(-10px); /* Eleva a imagem */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  
+   /* A linha abaixo cria a borda branca de 3 pixels */
+   border: 3px solid white;
+   /* A linha abaixo cria uma sombra maior (opcional, para destacar) */
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
 }
- 
   .estudantes_todos {
     display: flex;
     justify-content: space-around;
