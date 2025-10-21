@@ -29,9 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-window.onload = function() {
-    alert("Bem-vindo(a) ao site da Nossa Escola!");
-};
 // Adicione ao seu 'script.js' dentro do DOMContentLoaded
 const banner = document.getElementById('banner-principal');
 
